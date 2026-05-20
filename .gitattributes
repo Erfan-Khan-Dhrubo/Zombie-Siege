@@ -1,0 +1,19 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Exclude Unity auto-generated/asset files from language stats
+*.meta linguist-detectable=false
+*.mat linguist-detectable=false     # Prevents misclassification as Mathematica
+*.anim linguist-detectable=false
+*.controller linguist-detectable=false
+*.prefab linguist-detectable=false
+*.unity linguist-detectable=false
+*.physicMaterial linguist-detectable=false
+
+# Exclude shader files from stats
+*.shader linguist-detectable=false
+*.hlsl linguist-detectable=false
+*.cginc linguist-detectable=false
+
+# Force .cs files to count as C#
+*.cs linguist-language=C#
