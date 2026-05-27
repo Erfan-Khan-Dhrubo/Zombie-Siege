@@ -11,8 +11,14 @@ public class Bullet : MonoBehaviour
         {
             // Gets the object that was hit.
             print("hit " + collision.gameObject.name + " !");
-            
+
             // The GameObject this script is attached to.
+            Destroy(gameObject);
+        }
+
+        if (collision.collider.CompareTag("Wall"))
+        {
+            print("hit wall");
             Destroy(gameObject);
         }
     }
