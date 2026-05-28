@@ -1766,7 +1766,7 @@ MonoBehaviour:
   spreadIntensity: 0
   bulletPrefab: {fileID: 4887653597131446294, guid: 2f44077e580424541a35ad211c8fbdcf, type: 3}
   bulletSpawn: {fileID: 1672734107}
-  bulletVelocity: 30
+  bulletVelocity: 100
   bulletPrefabLifetime: 3
   currentShootingMode: 0
 --- !u!1660057539 &9223372036854775807
